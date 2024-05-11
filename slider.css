@@ -1,5 +1,5 @@
 .slider {
-    min-height: 800px;
+    min-height: 700px;
     position: relative;
     overflow-x: hidden;
 }
@@ -44,18 +44,20 @@
 }
 
 .slide-left {
-    left: -6.75%;
+    left: -6%;
     top: 40%;
     background-image: url(assets/images/arrow-next.svg);
     background-repeat: no-repeat;
     transform: rotate(180deg);
+    background-color: transparent;
 }
 
 .slide-right {
-    right: -6.75%;
+    right: -1%;
     top: 40%;
     background-image: url(assets/images/arrow-next.svg);
     background-repeat: no-repeat;
+    background-color: transparent;
 }
 
 @media(min-width: 45rem) and (max-width:60rem) {

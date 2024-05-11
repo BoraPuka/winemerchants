@@ -63,7 +63,7 @@ searchBtnMobile.onclick = () => {
 };
 
 searchBtnDesktop.onclick = () => {
-  console.log("tes");
+  console.log("test");
   searchField.classList.toggle("hidden");
   navbar.classList.toggle("hidden");
 };
