@@ -558,11 +558,13 @@ h3 {
     .merchant__pick__container .lead__image {
         max-height: 350px;
     }
-    .eapps-instagram-feed-posts-item-template-tile {
+
+    /* .eapps-instagram-feed-posts-item-template-tile {
         width: 100%;
-}
+    } */
 
 }
+
 @media(min-width: 45rem) {
     .merchant__pick__container {
         width: min(var(--container-width), 90%);
@@ -827,13 +829,13 @@ h3 {
 
 @media(min-width:45rem) and (max-width:60rem) {
 
-    #essentials
-     {
+    #essentials {
         display: flex;
         /* grid-auto-flow: row; 
          */
-         justify-content: space-between;
+        justify-content: space-between;
     }
+
     .merchant__pick__container {
         display: grid;
         grid-auto-flow: row;
@@ -867,12 +869,15 @@ h3 {
         /* grid-auto-flow: column;
         grid-template-columns: 1fr 2fr; */
         justify-content: space-between;
+        gap:63px
     }
+
     .merchant__pick__container {
         display: grid;
         grid-auto-flow: column;
         grid-template-columns: 1fr 2fr;
     }
+
     .merchant__pick__container {
         grid-template-columns: 1fr 2fr;
     }
@@ -1018,11 +1023,13 @@ h3 {
         /* grid-auto-flow: column; */
         justify-content: space-between;
     }
-.instagram{
-    width: 100%;
-    display: flex;
-    justify-content: end;
-}
+
+    .instagram {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
     .footer {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
@@ -1037,14 +1044,15 @@ h3 {
 
 .icon-search {
     display: block;
-    width: 1.75rem;
+    width: 1rem;
 
 }
 
 .form-control .icon-search {
     position: absolute;
-    top: 0.15rem;
-    right: 0.35rem;
+    top: 0.35rem;
+    right: 1rem;
+
 }
 
 .icon-phone {
@@ -1192,6 +1200,7 @@ h3 {
         font-style: normal;
         line-height: normal;
     }
+
     .my-24 {
         margin-block: 0.75rem;
     }
@@ -1340,6 +1349,7 @@ h3 {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
     .view-more {
         min-width: 18rem;
         /* min-height: 2.68rem;  */
@@ -1427,7 +1437,7 @@ h3 {
         line-height: 22px;
     }
 
-    
+
 }
 
 @media(min-width: 45rem) and (max-width:60rem) {
@@ -1518,6 +1528,7 @@ h3 {
     font-size: 24px;
     line-height: 30.72px;
 }
+
 .text {
     font-family: var(--ff-body);
     font-weight: var(--fw-regular);
@@ -1799,9 +1810,10 @@ h3 {
 
 @media (min-width: 60rem) {
 
-    .my-24{
+    .my-24 {
         margin-block: 1.5rem;
     }
+
     .title {
         font-size: 2.5rem;
         max-width: 18rem;
@@ -1876,5 +1888,5 @@ h3 {
 }
 
 .eapps-instagram-feed-posts-grid-load-more-visible {
-   display: none;
+    display: none;
 }
