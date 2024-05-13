@@ -177,6 +177,10 @@ h3 {
         width: 1.5rem;
         top: 0.15rem;
     }
+    .search-mobile .icon-search {
+        width: 1.5rem;
+        top: 0.15rem;
+    }
 }
 
 /* 
@@ -547,7 +551,7 @@ h3 {
 }
 
 @media(max-width:45rem) {
-
+   
     /* .eapps-instagram-feed-posts-grid-load-more-visible {
         visibility: hidden;
         margin-block: 0px;
@@ -1214,7 +1218,10 @@ h3 {
 
 
 @media(max-width:45rem) {
+    .icon-cart::before {
 
+        display: none;
+    }
     .btn {
         min-width: 9.12rem;
         font-size: 12px;
