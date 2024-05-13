@@ -30,7 +30,9 @@
     --fs-btn: 0.75rem;
 }
 
-
+.eapps-widget-toolbar {
+    visibility:hidden;
+}
 @media(min-width: 60rem) {
     :root {
         --fs-heading-lg: 3.75rem;
@@ -501,7 +503,6 @@ h3 {
         font-size: 4.375rem;
     }
 
-
 }
 
 
@@ -539,7 +540,7 @@ h3 {
 .merchant__pick__container {
     display: grid;
     width: 100%;
-    gap: 1rem;
+    gap: 2rem;
     margin-block-start: 3rem;
 }
 
@@ -571,6 +572,7 @@ h3 {
         margin-inline: auto;
     }
 
+  
 }
 
 @media(min-width: 45rem) and (max-width: 60rem) {
@@ -736,7 +738,9 @@ h3 {
 
 .card__title {
     font-weight: var(--fw-regular);
-    margin-block: 1.25rem;
+    /* margin-block: 1.25rem; */
+    margin-block-start: 1.25rem;
+    margin-block-end: 0.5rem;
     font-family: var(--ff-body);
     font-size: 12px;
 }
@@ -745,6 +749,8 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 500;
+    font-style: var(--ff-body);
 }
 
 #location {
@@ -818,6 +824,7 @@ h3 {
     #essentials .panel {
         max-width: 22rem;
         margin-top: 35px;
+        margin-bottom: 28px;
     }
 
     #followUs .panel {
@@ -994,10 +1001,12 @@ h3 {
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
-        margin-block: 2rem;
+        /* margin-block: 2rem; */
+        margin-bottom: 70px;
+        margin-top: 60px;
     }
 
-
+   
     .footer {
         grid-template-columns: 1fr 1fr;
         gap: 5rem;
@@ -1127,9 +1136,7 @@ h3 {
 }
 
 
-.price {
-    font-size: 0.875rem;
-}
+
 
 .price::before {
     content: '$';
@@ -1137,6 +1144,7 @@ h3 {
 
 .crossed-text {
     text-decoration: line-through;
+    font-weight: 400;
 }
 
 /* Form  */
@@ -1181,7 +1189,7 @@ h3 {
 .collapsable-title {
     position: relative;
     margin-bottom: 1rem;
-    border-bottom: 1px solid var(--clr-neutral-600);
+    border-bottom: 1px solid #EDEDED;
     cursor: pointer;
     font-family: var(--ff-body);
     font-weight: var(--fw-medium);
@@ -1392,6 +1400,7 @@ h3 {
 .list-unstyled {
     padding: 0;
     list-style: none;
+    margin-top: 30px;
 }
 
 .w-100 {
@@ -1555,7 +1564,8 @@ h3 {
 }
 
 .clr-grey {
-    color: var(--clr-neutral-700);
+    /* color: var(--clr-neutral-700); */
+    color: #858080
 }
 
 .clr-lead {
@@ -1652,27 +1662,8 @@ h3 {
 }
 
 .btn-sign-up {
-    /* color: var(--clr-primary-900);
-
-    border-radius: 2px;
-    min-width: 7.68rem;
-    color: #000000;
-    text-align: center;
-    line-height: 120%;
-    text-decoration: none;
-    font-family: Montserrat;
     background: #ffffff;
-    border: 0.5px solid rgb(71, 68, 67);
-    border-radius: 0px;
-    font-size: 14px;
-    font-weight: normal;
-    text-align: center;
-    text-decoration: none;
-    font-family: Montserrat;
-    padding: 0.5rem 0.5rem; */
-
-    background: #ffffff;
-    border: 0.5px solid rgb(71, 68, 67);
+    border: 1px solid #000000DE;
     border-radius: 0px;
     color: #000000;
     font-size: 14px;
@@ -1682,6 +1673,9 @@ h3 {
     padding: 11px 20px;
     text-decoration: none;
     font-family: Montserrat;
+    margin-bottom: 50px;
+    min-height: 48px;
+
 }
 
 .btn-primary {
@@ -1809,7 +1803,22 @@ h3 {
 }
 
 @media (min-width: 60rem) {
-
+    .btn-sign-up {
+        background: #ffffff;
+        border: 1px solid #961313de;
+        border-radius: 0px;
+        color: #c21818;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+        line-height: 120%;
+        padding: 11px 20px;
+        text-decoration: none;
+        font-family: Montserrat;
+        margin-bottom: 50px;
+        min-height: 48px;
+    
+    }
     .my-24 {
         margin-block: 1.5rem;
     }
