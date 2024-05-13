@@ -45,7 +45,8 @@
 
 .slide-left {
     left: -6%;
-    top: 40%;
+    top: 50%;
+    transform: translateY(-50%);
     background-image: url(assets/images/arrow-next.svg);
     background-repeat: no-repeat;
     transform: rotate(180deg);
@@ -54,7 +55,7 @@
 
 .slide-right {
     right: -1%;
-    top: 40%;
+    top: 50%;
     background-image: url(assets/images/arrow-next.svg);
     background-repeat: no-repeat;
     background-color: transparent;
