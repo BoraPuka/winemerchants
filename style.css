@@ -26,13 +26,13 @@
     --fs-body: .75rem;
     --fs-body-secondary: .875rem;
     --fs-subtitle: 1rem;
-    /*1rem;*/
     --fs-btn: 0.75rem;
 }
 
 .eapps-widget-toolbar {
-    visibility:hidden;
+    visibility: hidden;
 }
+
 @media(min-width: 60rem) {
     :root {
         --fs-heading-lg: 3.75rem;
@@ -124,15 +124,9 @@ body {
     font-size: var(--fs-body);
 }
 
-/* h1,
-h2,
-h3 {
-    font-family: var(--ff-title);
-} */
 
 /* Navbar and Navlink  */
 .navbar-container {
-    /* position: fixed; */
     top: 0;
     width: 100%;
     z-index: 10;
@@ -149,15 +143,12 @@ h3 {
     padding: 1rem 2.75rem;
     margin-block: 1rem;
     border-radius: 1.25rem;
-    /* justify-content: space-between;
-    align-items: center; */
+
 }
 
 .search-container {
-    /* min-height: 6rem; */
     padding-block: 1rem;
-    /* display: grid;
-    place-items: center; */
+
 }
 
 .nav--header .form-control {
@@ -177,18 +168,13 @@ h3 {
         width: 1.5rem;
         top: 0.15rem;
     }
+
     .search-mobile .icon-search {
         width: 1.5rem;
         top: 0.15rem;
     }
 }
 
-/* 
-@media(min-width:45rem) {
-    .search-container {
-        padding-block: 2rem;
-    }
-} */
 
 .nav-logo,
 .d-lg-none {
@@ -263,14 +249,6 @@ h3 {
     background-color: var(--clr-neutral-100);
 }
 
-@media(min-width:45rem) {
-
-    .dropdown-btn:hover~.dropdown-list,
-    .dropdown-list:hover {
-        display: grid;
-    }
-
-}
 
 @media(min-width:45rem) and (max-width:60rem) {
 
@@ -290,8 +268,6 @@ h3 {
 
 
 .nav__link--footer {
-    /* display: flex;
-    gap: 1rem; */
     text-decoration: none;
     color: var(--clr-neutral-800);
     text-transform: capitalize;
@@ -324,8 +300,8 @@ h3 {
         background-color: var(--clr-neutral-400);
     }
 
-    .price-discount{
-      font-size: 18px
+    .price-discount {
+        font-size: 18px
     }
 
     .navbar {
@@ -334,7 +310,6 @@ h3 {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        /* padding-bottom: 0.25rem; */
         border-radius: 0;
     }
 
@@ -427,7 +402,6 @@ h3 {
         align-items: start;
         padding-bottom: 10rem;
         height: 242px;
-        /* height: fit-content; */
     }
 
     .dropdown-btn.active .dropdown-list {
@@ -471,7 +445,6 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* margin-top: 3rem; */
     padding-block: 6rem;
 }
 
@@ -496,7 +469,6 @@ h3 {
 
 @media(min-width: 70rem) {
     .hero {
-        /* margin-top: 7rem; */
         display: flex;
         justify-content: start;
         align-items: center;
@@ -551,17 +523,12 @@ h3 {
 }
 
 @media(max-width:45rem) {
-   
-    /* .eapps-instagram-feed-posts-grid-load-more-visible {
-        visibility: hidden;
-        margin-block: 0px;
-    } */
 
-    .price-discount{
+    .price-discount {
         font-size: 16px
-      }
+    }
 
-    .crossed-text{
+    .crossed-text {
         font-size: 14px;
     }
 
@@ -573,13 +540,6 @@ h3 {
     .merchant__pick__container .lead__image {
         max-height: 350px;
     }
-
-    /* .eapps-instagram-feed-posts-item-template-tile {
-        width: 100%;
-    } */
-
-   
-
 }
 
 @media(min-width: 45rem) {
@@ -588,23 +548,18 @@ h3 {
         margin-inline: auto;
     }
 
-  
-}
-
-@media(min-width: 45rem) and (max-width: 60rem) {
-    .merchant__pick__container .panel {
-        /* margin-left: 2rem; */
+    .dropdown-btn:hover~.dropdown-list,
+    .dropdown-list:hover {
+        display: grid;
     }
 }
+
 
 .merchant__pick__lead {
     position: relative;
     padding: 2rem 0.25rem;
     z-index: 50;
     max-height: 400px;
-    /* min-height: 15rem; */
-
-    /* background-image: url(images/Rectangle\ 7.png);  */
 }
 
 
@@ -709,7 +664,6 @@ h3 {
     width: 100%;
     padding-block: 2rem 2rem;
     display: grid;
-    /* margin-left: 95px; */
 
 }
 
@@ -738,8 +692,6 @@ h3 {
 /* Card Styling  */
 .card {
     position: relative;
-    /* border-radius: 0.25rem; */
-    /* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05); */
     overflow: hidden;
 }
 
@@ -755,7 +707,6 @@ h3 {
 
 .card__title {
     font-weight: var(--fw-regular);
-    /* margin-block: 1.25rem; */
     margin-block-start: 1.25rem;
     margin-block-end: 0.5rem;
     font-family: var(--ff-body);
@@ -763,9 +714,6 @@ h3 {
 }
 
 .card__footer {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     font-weight: 500;
     font-style: var(--ff-body);
 }
@@ -798,65 +746,12 @@ h3 {
     margin-bottom: 34px;
 }
 
-@media(min-width:45rem) {
-    .text-lead {
-        font-weight: var(--fw-regular);
-        font-family: var(--ff-body);
-        font-size: 24px;
-        line-height: 32.69px;
 
-    }
-
-    .location {
-        background-image: url(images/Rectangle\ 35.png);
-        height: 540px;
-    }
-
-    .heading-lg {
-        font-size: 2.25rem;
-        font-weight: var(--fw-regular);
-        font-family: var(--ff-title);
-        line-height: 46.08px;
-    }
-
-    .location-street {
-        font-size: var(--fs-heading-md);
-        font-weight: var(--fw-regular);
-        font-family: var(--ff-title);
-        line-height: 31.72px;
-    }
-
-    .merchant__pick {
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
-        height: 400px;
-    }
-
-    #merchantPick .panel {
-        max-width: 21rem;
-        align-self: center;
-    }
-
-    #essentials .panel {
-        max-width: 22rem;
-        margin-top: 35px;
-        margin-bottom: 28px;
-    }
-
-    #followUs .panel {
-        max-width: 22rem;
-        margin-top: 50px;
-    }
-
-}
 
 @media(min-width:45rem) and (max-width:60rem) {
 
     #essentials {
         display: flex;
-        /* grid-auto-flow: row; 
-         */
         justify-content: space-between;
     }
 
@@ -890,10 +785,8 @@ h3 {
 
     #essentials {
         display: flex;
-        /* grid-auto-flow: column;
-        grid-template-columns: 1fr 2fr; */
         justify-content: space-between;
-        gap:63px
+        gap: 63px
     }
 
     .merchant__pick__container {
@@ -1009,7 +902,6 @@ h3 {
 
     .grid-items {
         grid-auto-flow: column;
-        /* grid-auto-columns: 1fr; */
         width: 100%;
 
     }
@@ -1018,14 +910,13 @@ h3 {
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
-        /* margin-block: 2rem; */
         margin-bottom: 138px;
         margin-top: 60px;
         height: 100%;
 
     }
 
-   
+
     .footer {
         grid-template-columns: 1fr 1fr;
         gap: 5rem;
@@ -1048,7 +939,6 @@ h3 {
 @media(min-width:60rem) {
     #followUs {
         display: flex;
-        /* grid-auto-flow: column; */
         justify-content: space-between;
     }
 
@@ -1215,7 +1105,7 @@ h3 {
     font-size: 14.88px;
     line-height: 25.38px;
     padding-bottom: 1rem;
-    
+
 
 }
 
@@ -1225,6 +1115,7 @@ h3 {
 
         display: none;
     }
+
     .btn {
         min-width: 9.12rem;
         font-size: 12px;
@@ -1329,10 +1220,6 @@ h3 {
 
     .social-media {
         display: none;
-        /* gap: 15px;
-        display: flex;
-        margin-top: 34px;
-        margin-bottom: 34px; */
     }
 
     .top-line {
@@ -1383,11 +1270,7 @@ h3 {
 
     .view-more {
         min-width: 18rem;
-        /* min-height: 2.68rem;  */
-        /* font-size: 24px; */
-        /* font-size: 1.25vw; */
         font-style: normal;
-        /* font-weight: 500; */
         line-height: normal;
         text-decoration: none;
         border-radius: 2.187px;
@@ -1452,10 +1335,12 @@ h3 {
         /* Display on small devices none */
         display: none;
     }
+
     #followUs {
         margin-block-start: -6rem;
         margin-block-end: 3.35rem;
     }
+
     .subtitle {
         margin-bottom: 12px;
         font-family: var(--ff-title);
@@ -1490,10 +1375,6 @@ h3 {
 .mb-12 {
     margin-bottom: 0.75rem;
 }
-
-/* .my-24 {
-    margin-block: 1.5rem;
-} */
 
 .my-16 {
     margin-block: 1rem;
@@ -1556,7 +1437,6 @@ h3 {
 }
 
 .title {
-    /* font-size: 2.5rem; */
     font-family: var(--ff-title);
     font-weight: var(--fw-medium);
     max-width: 18rem;
@@ -1571,26 +1451,11 @@ h3 {
     line-height: 14.63px;
 }
 
-
-
-
-
-
-.footer h3 {
-    /* font-size: 16px;
-    font-family: var(--ff-body);
-    font-weight: 300px;
-    line-height: 17.6px; */
-}
-
-
-
 .clr-white {
     color: var(--clr-neutral-100);
 }
 
 .clr-grey {
-    /* color: var(--clr-neutral-700); */
     color: #858080
 }
 
@@ -1676,7 +1541,6 @@ h3 {
     display: grid;
     place-items: center;
     content: url(assets/images/arrow-diagonal.svg);
-    /* width: 0.5rem; */
 }
 
 .btn-outline-primary {
@@ -1693,7 +1557,6 @@ h3 {
     font-weight: normal;
     text-align: center;
     line-height: 120%;
-    /* padding: 11px 20px; */
     text-decoration: none;
     font-family: Montserrat;
     margin-bottom: 50px;
@@ -1738,7 +1601,7 @@ h3 {
 
     .btn {
         min-width: 18rem;
-        min-height: 2.68rem; 
+        min-height: 2.68rem;
         font-size: 24px;
         font-size: 1.25vw;
         font-style: normal;
@@ -1748,11 +1611,7 @@ h3 {
 
     .view-more {
         min-width: 18rem;
-        /* min-height: 2.68rem;  */
-        /* font-size: 24px; */
-        /* font-size: 1.25vw; */
         font-style: normal;
-        /* font-weight: 500; */
         line-height: normal;
         text-decoration: none;
         border-radius: 2.187px;
@@ -1770,11 +1629,6 @@ h3 {
 
 
     .btn-section {
-
-        /* min-width: 20rem;
-        min-height: 3rem;
-        font-size: 1.625rem;
-        line-height: 29.26px; */
         background: transparent;
         border-radius: 2px;
         border: 1px solid #b7926a;
@@ -1807,7 +1661,7 @@ h3 {
 
 @media (min-width: 60rem) and (max-width: 70rem) {
 
-  
+
 
     .title {
         font-size: 2.5rem;
@@ -1834,6 +1688,7 @@ h3 {
         border: 0.5px solid #474443;
         min-height: 33px;
     }
+
     .my-24 {
         margin-block: 1.5rem;
     }
@@ -1845,11 +1700,9 @@ h3 {
     }
 
     .text {
-        /* font-size: 1.375rem; */
         line-height: 26.82px;
         color: #858080;
         font-family: Montserrat;
-        /* font-family: var(--ff-body); */
         font-size: 22px;
         font-style: normal;
         font-weight: 400;
@@ -1896,18 +1749,19 @@ h3 {
         display: none;
     }
 
-    
+
 }
 
 @media (min-width: 84rem) {
     .d-lg-none {
         display: none;
     }
-    .price-discount{
-        font-size: 18px
-      }
 
-    .crossed-text{
+    .price-discount {
+        font-size: 18px
+    }
+
+    .crossed-text {
         font-size: 16px;
     }
 
