@@ -48,7 +48,7 @@ slider.addEventListener("touchstart", function (event) {
 slider.addEventListener("touchmove", function (event) {
   const currentX = event.touches[0].clientX;
   const deltaX = currentX - startX;
-  const threshold = 50; // Adjust this value to define minimum swipe distance
+  const threshold = 50;
 
   if (deltaX > threshold) {
     prevSlide();

@@ -30,7 +30,7 @@
 }
 
 .eapps-widget-toolbar {
-    visibility: hidden;
+    visibility:hidden;
 }
 
 @media(min-width: 60rem) {
@@ -41,6 +41,7 @@
     }
 }
 
+/* Apply box-sizing: border-box to all elements */
 *,
 *::before,
 *::after {
@@ -81,14 +82,14 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-/* A elements that don't have a class get default styles */
+/* Elements that don't have a class get default styles */
 a:not([class]) {
     text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
-img,
-picture {
+img
+ {
     max-width: 100%;
     display: block;
 }
@@ -143,7 +144,6 @@ body {
     padding: 1rem 2.75rem;
     margin-block: 1rem;
     border-radius: 1.25rem;
-
 }
 
 .search-container {
@@ -168,7 +168,6 @@ body {
         width: 1.5rem;
         top: 0.15rem;
     }
-
     .search-mobile .icon-search {
         width: 1.5rem;
         top: 0.15rem;
@@ -276,7 +275,7 @@ body {
 
 
 .nav__link--footer {
-
+  
     text-decoration: none;
     color: var(--clr-neutral-800);
     text-transform: capitalize;
@@ -309,8 +308,8 @@ body {
         background-color: var(--clr-neutral-400);
     }
 
-    .price-discount {
-        font-size: 18px
+    .price-discount{
+      font-size: 18px
     }
 
     .navbar {
@@ -319,7 +318,7 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-
+        
         border-radius: 0;
     }
 
@@ -533,12 +532,12 @@ body {
 }
 
 @media(max-width:45rem) {
-
-    .price-discount {
+   
+    .price-discount{
         font-size: 16px
-    }
+      }
 
-    .crossed-text {
+    .crossed-text{
         font-size: 14px;
     }
 
@@ -559,7 +558,7 @@ body {
         margin-inline: auto;
     }
 
-
+  
 }
 
 @media(min-width: 45rem) and (max-width: 60rem) {
@@ -844,7 +843,7 @@ body {
     #essentials {
         display: flex;
         justify-content: space-between;
-        gap: 63px
+        gap:63px
     }
 
     .merchant__pick__container {
@@ -974,7 +973,7 @@ body {
 
     }
 
-
+   
     .footer {
         grid-template-columns: 1fr 1fr;
         gap: 5rem;
@@ -1161,7 +1160,7 @@ body {
     font-size: 14.88px;
     line-height: 25.38px;
     padding-bottom: 1rem;
-
+    
 
 }
 
@@ -1171,7 +1170,6 @@ body {
 
         display: none;
     }
-
     .btn {
         min-width: 9.12rem;
         font-size: 12px;
@@ -1384,42 +1382,6 @@ body {
 
 .justify-content-center {
     justify-content: center;
-}
-
-@media(max-width: 45rem) {
-    .d-sm-none {
-        display: none;
-    }
-
-    #followUs {
-        margin-block-start: -6rem;
-        margin-block-end: 3.35rem;
-    }
-
-    .subtitle {
-        margin-bottom: 12px;
-        font-family: var(--ff-title);
-        font-size: 0.875rem;
-        font-weight: var(--fw-medium);
-        line-height: 17.92px;
-        color: var(--clr-neutral-800);
-    }
-
-    .card__text {
-        font-family: var(--ff-body);
-        font-weight: var(--fw-regular);
-        font-size: 0.75rem;
-        line-height: 22px;
-    }
-
-
-}
-
-@media(min-width: 45rem) and (max-width:60rem) {
-    .d-md-none {
-        display: none;
-    }
-
 }
 
 .m-0 {
@@ -1640,6 +1602,41 @@ body {
     display: none !important;
 }
 
+
+@media(max-width: 45rem) {
+    .d-sm-none {
+        display: none;
+    }
+    #followUs {
+        margin-block-start: -6rem;
+        margin-block-end: 3.35rem;
+    }
+    .subtitle {
+        margin-bottom: 12px;
+        font-family: var(--ff-title);
+        font-size: 0.875rem;
+        font-weight: var(--fw-medium);
+        line-height: 17.92px;
+        color: var(--clr-neutral-800);
+    }
+
+    .card__text {
+        font-family: var(--ff-body);
+        font-weight: var(--fw-regular);
+        font-size: 0.75rem;
+        line-height: 22px;
+    }
+
+
+}
+
+@media(min-width: 45rem) and (max-width:60rem) {
+    .d-md-none {
+        display: none;
+    }
+
+}
+
 @media(min-width: 45rem) {
     .my-lg-16 {
         margin-block: 1rem;
@@ -1655,7 +1652,7 @@ body {
 
     .btn {
         min-width: 18rem;
-        min-height: 2.68rem;
+        min-height: 2.68rem; 
         font-size: 24px;
         font-size: 1.25vw;
         font-style: normal;
@@ -1715,7 +1712,7 @@ body {
 
 @media (min-width: 60rem) and (max-width: 70rem) {
 
-
+  
 
     .title {
         font-size: 2.5rem;
@@ -1742,7 +1739,6 @@ body {
         border: 0.5px solid #474443;
         min-height: 33px;
     }
-
     .my-24 {
         margin-block: 1.5rem;
     }
@@ -1792,6 +1788,7 @@ body {
 
 }
 
+
 @media (min-width: 70rem) and (max-width: 84rem) {
     .d-lg-none {
         display: inline;
@@ -1801,19 +1798,18 @@ body {
         display: none;
     }
 
-
+    
 }
 
 @media (min-width: 84rem) {
     .d-lg-none {
         display: none;
     }
-
-    .price-discount {
+    .price-discount{
         font-size: 18px
-    }
+      }
 
-    .crossed-text {
+    .crossed-text{
         font-size: 16px;
     }
 
