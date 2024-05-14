@@ -249,6 +249,14 @@ body {
     background-color: var(--clr-neutral-100);
 }
 
+@media(min-width:45rem) {
+
+    .dropdown-btn:hover~.dropdown-list,
+    .dropdown-list:hover {
+        display: grid;
+    }
+
+}
 
 @media(min-width:45rem) and (max-width:60rem) {
 
@@ -268,6 +276,7 @@ body {
 
 
 .nav__link--footer {
+
     text-decoration: none;
     color: var(--clr-neutral-800);
     text-transform: capitalize;
@@ -310,6 +319,7 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 100%;
+
         border-radius: 0;
     }
 
@@ -540,6 +550,7 @@ body {
     .merchant__pick__container .lead__image {
         max-height: 350px;
     }
+
 }
 
 @media(min-width: 45rem) {
@@ -548,12 +559,14 @@ body {
         margin-inline: auto;
     }
 
-    .dropdown-btn:hover~.dropdown-list,
-    .dropdown-list:hover {
-        display: grid;
-    }
+
 }
 
+@media(min-width: 45rem) and (max-width: 60rem) {
+    .merchant__pick__container .panel {
+        /* margin-left: 2rem; */
+    }
+}
 
 .merchant__pick__lead {
     position: relative;
@@ -674,9 +687,6 @@ body {
     margin-bottom: 34px;
 }
 
-
-
-
 .top-line {
     border-top: #b7926a 1px solid;
     padding-bottom: 100px;
@@ -746,7 +756,58 @@ body {
     margin-bottom: 34px;
 }
 
+@media(min-width:45rem) {
+    .text-lead {
+        font-weight: var(--fw-regular);
+        font-family: var(--ff-body);
+        font-size: 24px;
+        line-height: 32.69px;
 
+    }
+
+    .location {
+        background-image: url(images/Rectangle\ 35.png);
+        height: 540px;
+    }
+
+    .heading-lg {
+        font-size: 2.25rem;
+        font-weight: var(--fw-regular);
+        font-family: var(--ff-title);
+        line-height: 46.08px;
+    }
+
+    .location-street {
+        font-size: var(--fs-heading-md);
+        font-weight: var(--fw-regular);
+        font-family: var(--ff-title);
+        line-height: 31.72px;
+    }
+
+    .merchant__pick {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        height: 400px;
+    }
+
+    #merchantPick .panel {
+        max-width: 21rem;
+        align-self: center;
+    }
+
+    #essentials .panel {
+        max-width: 22rem;
+        margin-top: 35px;
+        margin-bottom: 28px;
+    }
+
+    #followUs .panel {
+        max-width: 22rem;
+        margin-top: 50px;
+    }
+
+}
 
 @media(min-width:45rem) and (max-width:60rem) {
 
@@ -776,9 +837,6 @@ body {
     .merchant__pick .merchant__pick__lead {
         min-height: 10rem;
     }
-
-
-
 }
 
 @media(min-width:60rem) {
@@ -920,8 +978,6 @@ body {
     .footer {
         grid-template-columns: 1fr 1fr;
         gap: 5rem;
-
-
     }
 
     .footer h3 {
@@ -1332,7 +1388,6 @@ body {
 
 @media(max-width: 45rem) {
     .d-sm-none {
-        /* Display on small devices none */
         display: none;
     }
 
@@ -1362,7 +1417,6 @@ body {
 
 @media(min-width: 45rem) and (max-width:60rem) {
     .d-md-none {
-        /* Display on small devices none */
         display: none;
     }
 
@@ -1737,8 +1791,6 @@ body {
     }
 
 }
-
-
 
 @media (min-width: 70rem) and (max-width: 84rem) {
     .d-lg-none {
